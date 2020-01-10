@@ -1,0 +1,194 @@
+# translation of k3bsetup.po to
+# translation of k3bsetup.po to Türkçe
+# Copyright (C) 2004, 2005, 2006 Free Software Foundation, Inc.
+#
+# Görkem Çetin <gorkem@kde.org>, 2004.
+# S.Çağlar Onur <caglar@uludag.org.tr>, 2004.
+# Ayşe Genç <ayse@uludag.org.tr>, 2005.
+# Engin Çağatay <engincagatay@yahoo.com>, 2006.
+# Serdar Soytetir <tulliana@gmail.com>, 2008, 2009.
+msgid ""
+msgstr ""
+"Project-Id-Version: k3bsetup\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2011-01-11 14:34+0100\n"
+"PO-Revision-Date: 2009-05-09 20:24+0300\n"
+"Last-Translator: Serdar Soytetir <tulliana@gmail.com>\n"
+"Language-Team: Turkish <yerellestirme@kde.org.tr>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 0.3\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: k3bsetup.cpp:77
+msgid "K3bSetup"
+msgstr "K3bSetup"
+
+#: k3bsetup.cpp:79
+msgid "(C) 2003-2007 Sebastian Trueg"
+msgstr "(C) 2003-2007 Sebastian Trueg"
+
+#: k3bsetup.cpp:80
+msgid "Sebastian Trueg"
+msgstr "Sebastian Trueg"
+
+#: k3bsetup.cpp:88
+msgid ""
+"<p>This simple setup assistant is able to set the permissions needed by K3b "
+"in order to burn CDs and DVDs. <p>It does not take things like devfs or "
+"resmgr into account. In most cases this is not a problem but on some systems "
+"the permissions may be altered the next time you login or restart your "
+"computer. In those cases it is best to consult the distribution "
+"documentation.<p><b>Caution:</b> Although K3b::Setup should not be able to "
+"mess up your system no guarantee can be given."
+msgstr ""
+"<p>Bu kurulum asistanı CD veya DVD yazmak için gerekli hakları "
+"ayarlayacaktır.<p>Bu hakları ayarlarken devfs, resmgr veya benzeri araçları "
+"gözardı edecektir. Çoğu zaman bu bir problem yaratmaz, fakat bazı "
+"sistemlerde haklar bir dahaki girişte ya da bilgisayarı tekrar başlatınca "
+"eski hallerine dönebilir. Böyle durumlarda yapılabilecek en iyi şey "
+"dağıtımın dökümantasyonuna başvurmak olacaktır.K3bSetup CD veya DVD yazmak "
+"için kullanılan aygıtlara yazma erişimi verecektir.<p><b>Uyarı:</b> K3bSetup "
+"bilgisayarınıza zarar vermeyecektir, fakat bunun için hiçbir garanti "
+"verilmemektedir."
+
+#: k3bsetup.cpp:145
+msgid ""
+"<h2>K3b::Setup</h2><p>This simple setup assistant is able to set the "
+"permissions needed by K3b in order to burn CDs and DVDs.<p>It does not take "
+"into account devfs or resmgr, or similar. In most cases this is not a "
+"problem, but on some systems the permissions may be altered the next time "
+"you login or restart your computer. In these cases it is best to consult the "
+"distribution's documentation.<p>The important task that K3b::Setup performs "
+"is grant write access to the CD and DVD devices.<p><b>Caution:</b> Although "
+"K3b::Setup should not be able to damage your system, no guarantee can be "
+"given."
+msgstr ""
+"<h2>K3b::Setup</h2><p>Bu kurulum asistanı CD veya DVD yazmak için gerekli "
+"hakları ayarlayacaktır.<p>Bu hakları ayarlarken devfs, resmgr veya benzeri "
+"araçları gözardı edecektir. Çoğu zaman bu bir problem yaratmaz, fakat bazı "
+"sistemlerde haklar bir dahaki girişte ya da bilgisayarı tekrar başlatınca "
+"eski hallerine dönebilir. Böyle durumlarda yapılabilecek en iyi şey "
+"dağıtımın dökümantasyonuna başvurmak olacaktır.<p>K3bSetup CD veya DVD "
+"yazmak için kullanılan aygıtlara yazma erişimi verecektir.<p><b>Uyarı:</b> "
+"K3bSetup bilgisayarınıza zarar vermeyecektir, fakat bunun için hiçbir "
+"garanti verilmemektedir."
+
+#: k3bsetup.cpp:188
+#, kde-format
+msgid "There is no group \"%1\"."
+msgstr "\"%1\" isminde bir grup yok."
+
+#: k3bsetup.cpp:228
+msgid "Cannot run worker."
+msgstr "Yardımcı çalıştırılamadı."
+
+#: k3bsetup.cpp:238
+msgid "Following devices and programs could not be updated:"
+msgstr "Bu aygıtlar ve uygulamalar güncellenemedi:"
+
+#: k3bsetupdevicesmodel.cpp:170 k3bsetupdevicesmodel.cpp:177
+#: k3bsetupprogramsmodel.cpp:266
+msgid "no change"
+msgstr "değişiklik yok"
+
+#: k3bsetupdevicesmodel.cpp:237
+msgid "Device"
+msgstr "Aygıt"
+
+#: k3bsetupdevicesmodel.cpp:238
+msgid "Devicenode"
+msgstr "Aygıt düğümü"
+
+#: k3bsetupdevicesmodel.cpp:239 k3bsetupprogramsmodel.cpp:324
+msgid "Permissions"
+msgstr "İzinler"
+
+#: k3bsetupdevicesmodel.cpp:240 k3bsetupprogramsmodel.cpp:325
+msgid "New permissions"
+msgstr "Yeni izinler"
+
+#: k3bsetupprogramsmodel.cpp:321
+msgid "Program"
+msgstr "Program"
+
+#: k3bsetupprogramsmodel.cpp:322
+msgid "Version"
+msgstr "Sürüm"
+
+#: k3bsetupprogramsmodel.cpp:323
+msgid "Path"
+msgstr "Yol"
+
+#: rc.cpp:1
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Serdar Soytetir"
+
+#: rc.cpp:2
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "tulliana@gmail.com"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#, fuzzy

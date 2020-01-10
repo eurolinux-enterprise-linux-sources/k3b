@@ -1,0 +1,185 @@
+# translation of k3bsetup.po to
+#
+# Ilpo Kantonen <ilpo@iki.fi>, 2005.
+# Mikael Lammentausta <mikael.lammentausta@student.savonia-amk.fi>, 2006.
+# Tommi Nieminen <translator@legisign.org>, 2009.
+msgid ""
+msgstr ""
+"Project-Id-Version: k3bsetup\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2011-01-11 14:34+0100\n"
+"PO-Revision-Date: 2009-11-04 19:16+0200\n"
+"Last-Translator: Tommi Nieminen <translator@legisign.org>\n"
+"Language-Team: messages <kde-i18n-doc@kde.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 1.0\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+
+#: k3bsetup.cpp:77
+msgid "K3bSetup"
+msgstr ""
+
+#: k3bsetup.cpp:79
+msgid "(C) 2003-2007 Sebastian Trueg"
+msgstr ""
+
+#: k3bsetup.cpp:80
+msgid "Sebastian Trueg"
+msgstr ""
+
+#: k3bsetup.cpp:88
+msgid ""
+"<p>This simple setup assistant is able to set the permissions needed by K3b "
+"in order to burn CDs and DVDs. <p>It does not take things like devfs or "
+"resmgr into account. In most cases this is not a problem but on some systems "
+"the permissions may be altered the next time you login or restart your "
+"computer. In those cases it is best to consult the distribution "
+"documentation.<p><b>Caution:</b> Although K3b::Setup should not be able to "
+"mess up your system no guarantee can be given."
+msgstr ""
+"<p>Tämä yksinkertainen asetusohjelma pystyy asettamaan K3b:n tarvitsemat CD- "
+"ja DVD-levyjen poltto-oikeudet.<p>Se ei ota huomioon devfs:ää, resmgr:ää tai "
+"vastaavia. Useimmiten tästä ei ole harmia, mutta joissakin järjestelmissä "
+"oikeudet muuttuvat taas kirjautuessasi tai käynnistettyäsi tietokoneen "
+"uudelleen. Tällöin on paras turvautua jakelusi ohjeisiin.<p><b>Varoitus</b>: "
+"Vaikkei K3b::Setupin pitäisi pystyä vahingoittamaan järjestelmääsi, takuita "
+"siitä ei voida antaa."
+
+#: k3bsetup.cpp:145
+msgid ""
+"<h2>K3b::Setup</h2><p>This simple setup assistant is able to set the "
+"permissions needed by K3b in order to burn CDs and DVDs.<p>It does not take "
+"into account devfs or resmgr, or similar. In most cases this is not a "
+"problem, but on some systems the permissions may be altered the next time "
+"you login or restart your computer. In these cases it is best to consult the "
+"distribution's documentation.<p>The important task that K3b::Setup performs "
+"is grant write access to the CD and DVD devices.<p><b>Caution:</b> Although "
+"K3b::Setup should not be able to damage your system, no guarantee can be "
+"given."
+msgstr ""
+"<h2>K3b::Setup</h2><p>>Tämä yksinkertainen avustusohjelma pystyy asettamaan "
+"K3b:n vaatimat CD- ja DVD-levyjen poltto-oikeudet.<p>Se ei ota huomioon "
+"devfs- tai resmgr-resursseja tai vastaavia. Useimmissa tapauksissa tästä ei "
+"tule ongelmia, mutta joissain järjestelmissä oikeudet saattavat muuttua "
+"kirjautuessasi seuraavan kerran käynnistettyäsi tietokoneen uudelleen. "
+"Tällöin on parasta tarkistaa jakelusi ohjeet.<p>K3b::Setupin tärkein tehtävä "
+"on sallia kirjoittaminen CD- ja DVD-laitteisiin.<p><b>Varoitus:</b> Vaikka "
+"K3b::Setupin ei pitäisi pystyä vahingoittamaan järjestelmääsi, takuita ei "
+"voida antaa."
+
+#: k3bsetup.cpp:188
+#, kde-format
+msgid "There is no group \"%1\"."
+msgstr "Ryhmää ”%1” ei ole olemassa."
+
+#: k3bsetup.cpp:228
+msgid "Cannot run worker."
+msgstr ""
+
+#: k3bsetup.cpp:238
+msgid "Following devices and programs could not be updated:"
+msgstr "Seuraavia laitteita ja ohjelmia ei voitu päivittää:"
+
+#: k3bsetupdevicesmodel.cpp:170 k3bsetupdevicesmodel.cpp:177
+#: k3bsetupprogramsmodel.cpp:266
+msgid "no change"
+msgstr "ei muutoksia"
+
+#: k3bsetupdevicesmodel.cpp:237
+msgid "Device"
+msgstr "Laite"
+
+#: k3bsetupdevicesmodel.cpp:238
+msgid "Devicenode"
+msgstr "Laitetiedosto"
+
+#: k3bsetupdevicesmodel.cpp:239 k3bsetupprogramsmodel.cpp:324
+msgid "Permissions"
+msgstr "Oikeudet"
+
+#: k3bsetupdevicesmodel.cpp:240 k3bsetupprogramsmodel.cpp:325
+msgid "New permissions"
+msgstr "Uudet oikeudet"
+
+#: k3bsetupprogramsmodel.cpp:321
+msgid "Program"
+msgstr "Ohjelma"
+
+#: k3bsetupprogramsmodel.cpp:322
+msgid "Version"
+msgstr "Versio"
+
+#: k3bsetupprogramsmodel.cpp:323
+msgid "Path"
+msgstr "Polku"
+
+#: rc.cpp:1
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Ilpo Kantonen,Mikko Saarinen"
+
+#: rc.cpp:2
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "ilpo@iki.fi,mikko.s.saarinen@mbnet.fi"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# yhteensopivuuden takia 'burning'
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#, fuzzy

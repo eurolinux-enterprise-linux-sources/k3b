@@ -1,0 +1,128 @@
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Freek de Kruijf <freekdekruijf@kde.nl>, 2010.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2011-01-11 14:34+0100\n"
+"PO-Revision-Date: 2010-07-09 09:01+0200\n"
+"Last-Translator: Freek de Kruijf <freekdekruijf@kde.nl>\n"
+"Language-Team: Dutch <kde-i18n-nl@kde.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 1.0\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+
+#: k3bsetup.cpp:77
+msgid "K3bSetup"
+msgstr "K3bSetup"
+
+#: k3bsetup.cpp:79
+msgid "(C) 2003-2007 Sebastian Trueg"
+msgstr "(C) 2003-2007 Sebastian Trueg"
+
+#: k3bsetup.cpp:80
+msgid "Sebastian Trueg"
+msgstr "Sebastian Trueg"
+
+#: k3bsetup.cpp:88
+msgid ""
+"<p>This simple setup assistant is able to set the permissions needed by K3b "
+"in order to burn CDs and DVDs. <p>It does not take things like devfs or "
+"resmgr into account. In most cases this is not a problem but on some systems "
+"the permissions may be altered the next time you login or restart your "
+"computer. In those cases it is best to consult the distribution "
+"documentation.<p><b>Caution:</b> Although K3b::Setup should not be able to "
+"mess up your system no guarantee can be given."
+msgstr ""
+"<p>Deze eenvoudige setup-assistent stelt voor u de noodzakelijke "
+"toegangsrechten voor in die nodig zijn om cd's en dvd's te kunnen branden. "
+"<p>De assistent slaat geen acht op zaken als devfs en resmgr. In de meeste "
+"gevallen is dat geen probleem, maar op sommige systemen kunnen de "
+"toegangsrechten zijn veranderd bij de volgende keer dat u u aanmeldt of uw "
+"computer opnieuw opstart. In dat geval is het het beste om de documentatie "
+"van uw Linux-distributie te raadplegen. <p><b>Opgelet:</b>alhoewel K3b::"
+"Setup in principe uw systeem niet onbruikbaar kan maken worden er geen "
+"garanties gegeven."
+
+#: k3bsetup.cpp:145
+msgid ""
+"<h2>K3b::Setup</h2><p>This simple setup assistant is able to set the "
+"permissions needed by K3b in order to burn CDs and DVDs.<p>It does not take "
+"into account devfs or resmgr, or similar. In most cases this is not a "
+"problem, but on some systems the permissions may be altered the next time "
+"you login or restart your computer. In these cases it is best to consult the "
+"distribution's documentation.<p>The important task that K3b::Setup performs "
+"is grant write access to the CD and DVD devices.<p><b>Caution:</b> Although "
+"K3b::Setup should not be able to damage your system, no guarantee can be "
+"given."
+msgstr ""
+"<h2>K3b::Setup</h2><p>Deze eenvoudige setup-assistent stelt voor u de "
+"noodzakelijke toegangsrechten voor in die nodig zijn om cd's en dvd's te "
+"kunnen branden. <p>De assistent slaat geen acht op zaken als devfs en "
+"resmgr. In de meeste gevallen is dat geen probleem, maar op sommige systemen "
+"kunnen de toegangsrechten zijn veranderd bij de volgende keer dat u u "
+"aanmeldt of uw computer opnieuw opstart. In dat geval is het het beste om de "
+"documentatie van uw Linux-distributie te raadplegen. <p>De meest belangrijke "
+"taak die deze setup uitvoert is het krijgen van schrijftoegang tot cd- en "
+"dvd-apparaten.<p><b>Opgelet:</b>alhoewel K3b::Setup in principe uw systeem "
+"niet onbruikbaar kan maken worden er geen garanties gegeven."
+
+#: k3bsetup.cpp:188
+#, kde-format
+msgid "There is no group \"%1\"."
+msgstr "De groep \"%1\" bestaat niet."
+
+#: k3bsetup.cpp:228
+msgid "Cannot run worker."
+msgstr "Kan opdracht niet uitvoeren."
+
+#: k3bsetup.cpp:238
+msgid "Following devices and programs could not be updated:"
+msgstr "De volgende apparaten en programma's konden niet opgewaardeerd worden:"
+
+#: k3bsetupdevicesmodel.cpp:170 k3bsetupdevicesmodel.cpp:177
+#: k3bsetupprogramsmodel.cpp:266
+msgid "no change"
+msgstr "geen wijziging"
+
+#: k3bsetupdevicesmodel.cpp:237
+msgid "Device"
+msgstr "Apparaat"
+
+#: k3bsetupdevicesmodel.cpp:238
+msgid "Devicenode"
+msgstr "Apparaatknoop"
+
+#: k3bsetupdevicesmodel.cpp:239 k3bsetupprogramsmodel.cpp:324
+msgid "Permissions"
+msgstr "Toegangsrechten"
+
+#: k3bsetupdevicesmodel.cpp:240 k3bsetupprogramsmodel.cpp:325
+msgid "New permissions"
+msgstr "Nieuw toegangsrechten"
+
+#: k3bsetupprogramsmodel.cpp:321
+msgid "Program"
+msgstr "Programma"
+
+#: k3bsetupprogramsmodel.cpp:322
+msgid "Version"
+msgstr "Versie"
+
+#: k3bsetupprogramsmodel.cpp:323
+msgid "Path"
+msgstr "Pad"
+
+#: rc.cpp:1
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Freek de Kruijf"
+
+#: rc.cpp:2
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "rinsedevries@kde.nl"

@@ -1,0 +1,127 @@
+# translation of k3bsetup.po to Estonian
+#
+# Marek Laane <bald@starman.ee>, 2004-2007,2009.
+# Peeter Russak <pezz@tkwcy.ee>, 2005.
+# Hasso Tepper <hasso@kde.org>, 2005.
+# Marek Laane <bald@smail.ee>, 2009.
+msgid ""
+msgstr ""
+"Project-Id-Version: k3bsetup\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2011-01-11 14:34+0100\n"
+"PO-Revision-Date: 2009-05-04 15:50+0300\n"
+"Last-Translator: Marek Laane <bald@smail.ee>\n"
+"Language-Team: Estonian <kde-et@linux.ee>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 0.3\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+
+#: k3bsetup.cpp:77
+msgid "K3bSetup"
+msgstr "K3bSetup"
+
+#: k3bsetup.cpp:79
+msgid "(C) 2003-2007 Sebastian Trueg"
+msgstr "(c) 2003-2007: Sebastian Trueg"
+
+#: k3bsetup.cpp:80
+msgid "Sebastian Trueg"
+msgstr "Sebastian Trueg"
+
+#: k3bsetup.cpp:88
+msgid ""
+"<p>This simple setup assistant is able to set the permissions needed by K3b "
+"in order to burn CDs and DVDs. <p>It does not take things like devfs or "
+"resmgr into account. In most cases this is not a problem but on some systems "
+"the permissions may be altered the next time you login or restart your "
+"computer. In those cases it is best to consult the distribution "
+"documentation.<p><b>Caution:</b> Although K3b::Setup should not be able to "
+"mess up your system no guarantee can be given."
+msgstr ""
+"<p>See lihtne seadistamisabiline lubab määrata õigusi, mida K3b vajab CD-de "
+"ja DVD-de kirjutamiseks. <p>See ei võta arvesse selliseid asju, nagu devfs "
+"või resmgr. Enamasti ei ole sel erilist tähtsust, kuid mõnes süsteemis "
+"võivad õigused muutuda, kui logid uuesti sisse või arvuti uuesti käivitad. "
+"Sellisel juhul oleks mõttekas lähemalt uurida distributsiooni "
+"dokumentatsiooni.<p><b>Ettevaatust:</b> kuigi K3bSetup ei tohiks süsteemis "
+"mingit kahju tekitada, ei ole võimalik seda täielikult välistada."
+
+#: k3bsetup.cpp:145
+msgid ""
+"<h2>K3b::Setup</h2><p>This simple setup assistant is able to set the "
+"permissions needed by K3b in order to burn CDs and DVDs.<p>It does not take "
+"into account devfs or resmgr, or similar. In most cases this is not a "
+"problem, but on some systems the permissions may be altered the next time "
+"you login or restart your computer. In these cases it is best to consult the "
+"distribution's documentation.<p>The important task that K3b::Setup performs "
+"is grant write access to the CD and DVD devices.<p><b>Caution:</b> Although "
+"K3b::Setup should not be able to damage your system, no guarantee can be "
+"given."
+msgstr ""
+"<h2>K3bSetup</h2><p>See lihtne seadistamisabiline lubab määrata õigusi, mida "
+"K3b vajab CD-de ja DVD-de kirjutamiseks.<p>See ei võta arvesse selliseid "
+"asju, nagu devfs või resmgr. Enamasti ei ole sel erilist tähtsust, kuid "
+"mõnes süsteemis võivad õigused muutuda, kui logid uuesti sisse või arvuti "
+"uuesti käivitad. Sellisel juhul oleks mõttekas lähemalt uurida "
+"distributsiooni dokumentatsiooni.<p>Kõige olulisem asi, mida K3bSetup 2 "
+"teeb, on kirjutamisõiguse andmine CD- ja DVD-seadmetele.<p><b>Ettevaatust:</"
+"b> kuigi K3bSetup ei tohiks süsteemis mingit kahju tekitada, ei ole võimalik "
+"seda täielikult välistada."
+
+#: k3bsetup.cpp:188
+#, kde-format
+msgid "There is no group \"%1\"."
+msgstr "Gruppi \"%1\" ei ole."
+
+#: k3bsetup.cpp:228
+msgid "Cannot run worker."
+msgstr "Tööprogrammi käivitamine nurjus."
+
+#: k3bsetup.cpp:238
+msgid "Following devices and programs could not be updated:"
+msgstr "Järgmiste seadmete ja programmide uuendamine nurjus:"
+
+#: k3bsetupdevicesmodel.cpp:170 k3bsetupdevicesmodel.cpp:177
+#: k3bsetupprogramsmodel.cpp:266
+msgid "no change"
+msgstr "midagi ei muudeta"
+
+#: k3bsetupdevicesmodel.cpp:237
+msgid "Device"
+msgstr "Seade"
+
+#: k3bsetupdevicesmodel.cpp:238
+msgid "Devicenode"
+msgstr "Seadmesõlm"
+
+#: k3bsetupdevicesmodel.cpp:239 k3bsetupprogramsmodel.cpp:324
+msgid "Permissions"
+msgstr "Õigused"
+
+#: k3bsetupdevicesmodel.cpp:240 k3bsetupprogramsmodel.cpp:325
+msgid "New permissions"
+msgstr "Uued õigused"
+
+#: k3bsetupprogramsmodel.cpp:321
+msgid "Program"
+msgstr "Programm"
+
+#: k3bsetupprogramsmodel.cpp:322
+msgid "Version"
+msgstr "Versioon"
+
+#: k3bsetupprogramsmodel.cpp:323
+msgid "Path"
+msgstr "Asukoht"
+
+#: rc.cpp:1
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Marek Laane"
+
+#: rc.cpp:2
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "bald@smail.ee"

@@ -1,0 +1,187 @@
+# translation of k3bsetup.po to Greek
+# translation of k3bsetup.po to
+#
+# Spiros Georgaras <sng@hellug.gr>, 2005, 2006, 2007.
+# Toussis Manolis <manolis@koppermind.homelinux.org>, 2005.
+# Christos Kotsaris <christos.kotsaris@gmail.com>, 2010.
+msgid ""
+msgstr ""
+"Project-Id-Version: k3bsetup\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2011-01-11 14:34+0100\n"
+"PO-Revision-Date: 2010-10-23 04:33+0300\n"
+"Last-Translator: Christos Kotsaris <christos.kotsaris@gmail.com>\n"
+"Language-Team: Greek <i18ngr@lists.hellug.gr>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 1.1\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+
+#: k3bsetup.cpp:77
+msgid "K3bSetup"
+msgstr "K3bSetup"
+
+#: k3bsetup.cpp:79
+msgid "(C) 2003-2007 Sebastian Trueg"
+msgstr "(C) 2003-2007 Sebastian Trueg"
+
+#: k3bsetup.cpp:80
+msgid "Sebastian Trueg"
+msgstr "Sebastian Trueg"
+
+#: k3bsetup.cpp:88
+msgid ""
+"<p>This simple setup assistant is able to set the permissions needed by K3b "
+"in order to burn CDs and DVDs. <p>It does not take things like devfs or "
+"resmgr into account. In most cases this is not a problem but on some systems "
+"the permissions may be altered the next time you login or restart your "
+"computer. In those cases it is best to consult the distribution "
+"documentation.<p><b>Caution:</b> Although K3b::Setup should not be able to "
+"mess up your system no guarantee can be given."
+msgstr ""
+"<p>Αυτός ο βοηθός εγκατάστασης έχει τη δυνατότητα να θέσει τα δικαιώματα που "
+"χρειάζεται το K3b ώστε να γράφει CD και DVD. <p>Δε λαμβάνει υπόψιν του "
+"πράγματα όπως το devfs ή το resmgr. Στις περισσότερες περιπτώσεις αυτό δεν "
+"είναι πρόβλημα αλλά σε μερικά συστήματα οι άδειες μπορεί να αλλαχθούν την "
+"επόμενη φορά που θα συνδεθείτε η θα επανεκκινήσετε τον υπολογιστή σας. Σε "
+"αυτές τις περιπτώσεις καλύτερα να συμβουλευτείτε την τεκμηρίωση της διανομής "
+"σας.<p><b>Προσοχή:</b> Παρότι το K3b::Setup δεν είναι σε θέση να προκαλέσει "
+"προβλήματα στο σύστημά σας, δεν μπορεί να δοθεί καμία εγγύηση."
+
+#: k3bsetup.cpp:145
+msgid ""
+"<h2>K3b::Setup</h2><p>This simple setup assistant is able to set the "
+"permissions needed by K3b in order to burn CDs and DVDs.<p>It does not take "
+"into account devfs or resmgr, or similar. In most cases this is not a "
+"problem, but on some systems the permissions may be altered the next time "
+"you login or restart your computer. In these cases it is best to consult the "
+"distribution's documentation.<p>The important task that K3b::Setup performs "
+"is grant write access to the CD and DVD devices.<p><b>Caution:</b> Although "
+"K3b::Setup should not be able to damage your system, no guarantee can be "
+"given."
+msgstr ""
+"<h2>K3b::Setup</h2><p>Αυτός ο βοηθός εγκατάστασης έχει τη δυνατότητα να "
+"θέσει τα δικαιώματα που χρειάζεται το K3b ώστε να γράφει CD και DVD. <p>Δε "
+"λαμβάνει υπόψιν του πράγματα όπως το devfs ή το resmgr. Στις περισσότερες "
+"περιπτώσεις αυτό δεν είναι πρόβλημα αλλά σε μερικά συστήματα οι άδειες "
+"μπορεί να αλλαχθούν την επόμενη φορά που θα συνδεθείτε η θα επανεκκινήσετε "
+"τον υπολογιστή σας. Σε αυτές τις περιπτώσεις καλύτερα να συμβουλευτείτε την "
+"τεκμηρίωση της διανομής σας.<p>Η σημαντική λειτουργία που πραγματοποιεί το "
+"K3b::Setup είναι ότι δίνει πρόσβαση εγγραφής στις συσκευές CD και DVD."
+"<p><b>Caution:</b>Παρότι το K3b::Setup δεν είναι σε θέση να προκαλέσει "
+"προβλήματα στο σύστημά σας, δεν μπορεί να δοθεί καμία εγγύηση."
+
+#: k3bsetup.cpp:188
+#, kde-format
+msgid "There is no group \"%1\"."
+msgstr "Δεν υπάρχει η ομάδα \"%1\"."
+
+#: k3bsetup.cpp:228
+msgid "Cannot run worker."
+msgstr "Αδυναμία εκτέλεσης εργάτη."
+
+#: k3bsetup.cpp:238
+msgid "Following devices and programs could not be updated:"
+msgstr "Οι ακόλουθες συσκευές και προγράμματα δε μπόρεσαν να ενημερωθούν:"
+
+#: k3bsetupdevicesmodel.cpp:170 k3bsetupdevicesmodel.cpp:177
+#: k3bsetupprogramsmodel.cpp:266
+msgid "no change"
+msgstr "καμία αλλαγή"
+
+#: k3bsetupdevicesmodel.cpp:237
+msgid "Device"
+msgstr "Συσκευή"
+
+#: k3bsetupdevicesmodel.cpp:238
+msgid "Devicenode"
+msgstr "Κόμβος συσκευής"
+
+#: k3bsetupdevicesmodel.cpp:239 k3bsetupprogramsmodel.cpp:324
+msgid "Permissions"
+msgstr "Δικαιώματα"
+
+#: k3bsetupdevicesmodel.cpp:240 k3bsetupprogramsmodel.cpp:325
+msgid "New permissions"
+msgstr "Νέα δικαιώματα"
+
+#: k3bsetupprogramsmodel.cpp:321
+msgid "Program"
+msgstr "Πρόγραμμα"
+
+#: k3bsetupprogramsmodel.cpp:322
+msgid "Version"
+msgstr "Έκδοση"
+
+#: k3bsetupprogramsmodel.cpp:323
+msgid "Path"
+msgstr "Διαδρομή"
+
+#: rc.cpp:1
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Σπύρος Γεωργαράς, Κώτσαρης Χρήστος"
+
+#: rc.cpp:2
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "sng@hellug.gr, christos.kotsaris@gmail.com"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#, fuzzy

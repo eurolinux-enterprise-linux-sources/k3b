@@ -1,0 +1,131 @@
+# tradução do k3bsetup.po para Brazilian Portuguese
+#
+# Henrique Pinto <henrique.pinto@kdemail.net>, 2005.
+# doutor.zero <doutor.zero@gmail.com>, 2008, 2009.
+# Luiz Fernando Ranghetti <elchevive@opensuse.org>, 2009.
+# André Marcelo Alvarenga <andrealvarenga@gmx.net>, 2009.
+msgid ""
+msgstr ""
+"Project-Id-Version: k3bsetup\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2011-01-11 14:34+0100\n"
+"PO-Revision-Date: 2009-09-27 11:34-0300\n"
+"Last-Translator: André Marcelo Alvarenga <andrealvarenga@gmx.net>\n"
+"Language-Team: Brazilian Portuguese <kde-i18n-pt_br@mail.kde.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.4\n"
+"X-Poedit-Language: Portuguese\n"
+"X-Poedit-Country: BRAZIL\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: k3bsetup.cpp:77
+msgid "K3bSetup"
+msgstr "Configurações avançadas do K3b"
+
+#: k3bsetup.cpp:79
+msgid "(C) 2003-2007 Sebastian Trueg"
+msgstr "(C) 2003-2007 Sebastian Trueg"
+
+#: k3bsetup.cpp:80
+msgid "Sebastian Trueg"
+msgstr "Sebastian Trueg"
+
+#: k3bsetup.cpp:88
+msgid ""
+"<p>This simple setup assistant is able to set the permissions needed by K3b "
+"in order to burn CDs and DVDs. <p>It does not take things like devfs or "
+"resmgr into account. In most cases this is not a problem but on some systems "
+"the permissions may be altered the next time you login or restart your "
+"computer. In those cases it is best to consult the distribution "
+"documentation.<p><b>Caution:</b> Although K3b::Setup should not be able to "
+"mess up your system no guarantee can be given."
+msgstr ""
+"<p>Este simples assistente de configuração é capaz de ajustar as permissões "
+"que o K3b necessita para gravar CDs e DVDs. <p>Ele não leva em conta coisas "
+"como devfs ou resmgr. Na maioria dos casos isso não é um problema, mas em "
+"alguns sistemas, as permissões podem ser alteradas na próxima vez que você "
+"ligar ou reiniciar seu computador. Nesses casos, é melhor consultar a "
+"documentação da sua distribuição.<p><b>Atenção:</b> Mesmo que as "
+"Configurações avançadas do K3b não sejam capazes de danificar o seu sistema, "
+"nenhuma garantia pode ser dada."
+
+#: k3bsetup.cpp:145
+msgid ""
+"<h2>K3b::Setup</h2><p>This simple setup assistant is able to set the "
+"permissions needed by K3b in order to burn CDs and DVDs.<p>It does not take "
+"into account devfs or resmgr, or similar. In most cases this is not a "
+"problem, but on some systems the permissions may be altered the next time "
+"you login or restart your computer. In these cases it is best to consult the "
+"distribution's documentation.<p>The important task that K3b::Setup performs "
+"is grant write access to the CD and DVD devices.<p><b>Caution:</b> Although "
+"K3b::Setup should not be able to damage your system, no guarantee can be "
+"given."
+msgstr ""
+"<h2>Configurações avançadas do K3b</h2><p>Este simples assistente de "
+"configuração é capaz de ajustar as permissões que o K3b necessita para "
+"gravar CDs e DVDs.<p>Ele não leva em conta coisas como devfs, resmgr ou "
+"similares. Na maioria dos casos isso não é um problema mas em alguns "
+"sistemas as permissões podem ser alteradas na próxima vez que você ligar ou "
+"reiniciar seu computador. Nesses casos é melhor consultar a documentação da "
+"sua distribuição.<p>A importante tarefa que as Configurações avançadas do "
+"K3b executam, é fornecer acesso de gravação aos dispositivos de CD e DVD."
+"<p><b>Atenção:</b> Mesmo que as Configurações avançadas do K3b não sejam "
+"capazes de danificar seu sistema, nenhuma garantia pode ser dada."
+
+#: k3bsetup.cpp:188
+#, kde-format
+msgid "There is no group \"%1\"."
+msgstr "O grupo \"%1\" não existe."
+
+#: k3bsetup.cpp:228
+msgid "Cannot run worker."
+msgstr "Não foi possível executar o worker."
+
+#: k3bsetup.cpp:238
+msgid "Following devices and programs could not be updated:"
+msgstr "Os seguintes dispositivos e programas não puderam ser atualizados:"
+
+#: k3bsetupdevicesmodel.cpp:170 k3bsetupdevicesmodel.cpp:177
+#: k3bsetupprogramsmodel.cpp:266
+msgid "no change"
+msgstr "sem alterações"
+
+#: k3bsetupdevicesmodel.cpp:237
+msgid "Device"
+msgstr "Dispositivo"
+
+#: k3bsetupdevicesmodel.cpp:238
+msgid "Devicenode"
+msgstr "Nó do dispositivo"
+
+#: k3bsetupdevicesmodel.cpp:239 k3bsetupprogramsmodel.cpp:324
+msgid "Permissions"
+msgstr "Permissões"
+
+#: k3bsetupdevicesmodel.cpp:240 k3bsetupprogramsmodel.cpp:325
+msgid "New permissions"
+msgstr "Novas permissões"
+
+#: k3bsetupprogramsmodel.cpp:321
+msgid "Program"
+msgstr "Programa"
+
+#: k3bsetupprogramsmodel.cpp:322
+msgid "Version"
+msgstr "Versão"
+
+#: k3bsetupprogramsmodel.cpp:323
+msgid "Path"
+msgstr "Caminho"
+
+#: rc.cpp:1
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Doutor Zero"
+
+#: rc.cpp:2
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "doutor.zero@gmail.com"

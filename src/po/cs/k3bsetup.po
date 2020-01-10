@@ -1,0 +1,126 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: k3bsetup\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2011-01-11 14:34+0100\n"
+"PO-Revision-Date: 2009-05-20 16:56+0200\n"
+"Last-Translator: Vit Pelcak <vit@pelcak.org>\n"
+"Language-Team: Czech <kde-i18n-doc@kde.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: cs\n"
+"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+
+#: k3bsetup.cpp:77
+msgid "K3bSetup"
+msgstr "K3bSetup"
+
+#: k3bsetup.cpp:79
+msgid "(C) 2003-2007 Sebastian Trueg"
+msgstr "(C) 2003-2007 Sebastian Trueg"
+
+#: k3bsetup.cpp:80
+msgid "Sebastian Trueg"
+msgstr "Sebastian Trueg"
+
+#: k3bsetup.cpp:88
+msgid ""
+"<p>This simple setup assistant is able to set the permissions needed by K3b "
+"in order to burn CDs and DVDs. <p>It does not take things like devfs or "
+"resmgr into account. In most cases this is not a problem but on some systems "
+"the permissions may be altered the next time you login or restart your "
+"computer. In those cases it is best to consult the distribution "
+"documentation.<p><b>Caution:</b> Although K3b::Setup should not be able to "
+"mess up your system no guarantee can be given."
+msgstr ""
+"<p>Tento jednoduchý průvodce umí nastavit přístupová práva potřebná pro "
+"vypalování CD a DVD.<p>Nebere v potaz devfs nebo resmgr am podobně. Ve "
+"většině případů to nepředstavuje žádný problém, ale v některých případech "
+"může po restartu dojít k přepsání práv na původní hodnoty. V takovém případě "
+"si, prosím, prostudujte dokumentaci ke svému systému.<p>Důležitou úlohou "
+"K3bSetup 2 je zajistit práva k zápisu pro CD a DVD zařízení.<p><b>Upozornění:"
+"</b> Ačkoliv by K3bSetup neměl být schopen poškodit váš systém, je jeho "
+"použití bez jakékoliv záruky."
+
+#: k3bsetup.cpp:145
+msgid ""
+"<h2>K3b::Setup</h2><p>This simple setup assistant is able to set the "
+"permissions needed by K3b in order to burn CDs and DVDs.<p>It does not take "
+"into account devfs or resmgr, or similar. In most cases this is not a "
+"problem, but on some systems the permissions may be altered the next time "
+"you login or restart your computer. In these cases it is best to consult the "
+"distribution's documentation.<p>The important task that K3b::Setup performs "
+"is grant write access to the CD and DVD devices.<p><b>Caution:</b> Although "
+"K3b::Setup should not be able to damage your system, no guarantee can be "
+"given."
+msgstr ""
+"<h2>K3bSetup</h2><p>Tento jednoduchý průvodce umí nastavit přístupová práva "
+"potřebná pro vypalování CD a DVD.<p>Nebere v potaz devfs nebo resmgr a "
+"podobně. Ve většině případů to nepředstavuje žádný problém, ale v některých "
+"případech může po restartu dojít k přepsání práv na původní hodnoty. V "
+"takovém případě si, prosím, prostudujte dokumentaci ke svému systému."
+"<p>Důležitou úlohou K3bSetup je zajistit práva k zápisu pro CD a DVD "
+"zařízení.<p><b>Upozornění:</b> Ačkoliv by K3bSetup neměl být schopen "
+"poškodit váš systém, je jeho použití bez jakékoliv záruky."
+
+#: k3bsetup.cpp:188
+#, kde-format
+msgid "There is no group \"%1\"."
+msgstr "Skupina \"%1\" neexistuje."
+
+#: k3bsetup.cpp:228
+msgid "Cannot run worker."
+msgstr ""
+
+#: k3bsetup.cpp:238
+msgid "Following devices and programs could not be updated:"
+msgstr "Následující zařízení a programy nemohly být aktualizovány:"
+
+#: k3bsetupdevicesmodel.cpp:170 k3bsetupdevicesmodel.cpp:177
+#: k3bsetupprogramsmodel.cpp:266
+msgid "no change"
+msgstr "žádná změna"
+
+#: k3bsetupdevicesmodel.cpp:237
+msgid "Device"
+msgstr "Zařízení"
+
+#: k3bsetupdevicesmodel.cpp:238
+msgid "Devicenode"
+msgstr "Uzel zařízení"
+
+#: k3bsetupdevicesmodel.cpp:239 k3bsetupprogramsmodel.cpp:324
+msgid "Permissions"
+msgstr "Oprávnění"
+
+#: k3bsetupdevicesmodel.cpp:240 k3bsetupprogramsmodel.cpp:325
+msgid "New permissions"
+msgstr "Nová oprávnění"
+
+#: k3bsetupprogramsmodel.cpp:321
+msgid "Program"
+msgstr "Program"
+
+#: k3bsetupprogramsmodel.cpp:322
+msgid "Version"
+msgstr "Verze"
+
+#: k3bsetupprogramsmodel.cpp:323
+msgid "Path"
+msgstr "Cesta"
+
+#: rc.cpp:1
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "David Kolibáč"
+
+#: rc.cpp:2
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "kolibac@gmail.com"

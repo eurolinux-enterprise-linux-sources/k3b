@@ -1,0 +1,182 @@
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Thanomsub Noppaburana <donga.nb@gmail.com>, 2009, 2010.
+msgid ""
+msgstr ""
+"Project-Id-Version: k3bsetup\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2011-01-11 14:34+0100\n"
+"PO-Revision-Date: 2010-02-24 16:26+0700\n"
+"Last-Translator: Thanomsub Noppaburana <donga.nb@gmail.com>\n"
+"Language-Team: Thai <thai-l10n@googlegroups.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 1.0\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: k3bsetup.cpp:77
+msgid "K3bSetup"
+msgstr "K3bSetup"
+
+#: k3bsetup.cpp:79
+msgid "(C) 2003-2007 Sebastian Trueg"
+msgstr "(C) 2003-2007 Sebastian Trueg"
+
+#: k3bsetup.cpp:80
+msgid "Sebastian Trueg"
+msgstr "Sebastian Trueg"
+
+#: k3bsetup.cpp:88
+msgid ""
+"<p>This simple setup assistant is able to set the permissions needed by K3b "
+"in order to burn CDs and DVDs. <p>It does not take things like devfs or "
+"resmgr into account. In most cases this is not a problem but on some systems "
+"the permissions may be altered the next time you login or restart your "
+"computer. In those cases it is best to consult the distribution "
+"documentation.<p><b>Caution:</b> Although K3b::Setup should not be able to "
+"mess up your system no guarantee can be given."
+msgstr ""
+"<p>นี่เป็นผู้ช่วยในการตั้งค่าอย่างง่าย ในการกำหนดสิทธิ์ที่อนุญาตที่จำเป็นต้องใช้กับโปรแกรม K3b "
+"เพื่อใช้ในการเขียนแผ่นซีดีหรือแผ่นดีวีดี<p>โดยมันจะไม่มีการยุ่งเกี่ยวกับสิ่งต่าง ๆ เช่น devfs หรือ "
+"resmgr เพื่อกำหนดให้กับบัญชีผู้ใช้แต่อย่างใด ซึ่งโดยทั่วไปแล้ว "
+"การตั้งค่านี้จะไม่ก่อให้เกิดปัญหาแต่อย่างใด "
+"แต่กับบางระบบนั้นอาจจะมีสิทธิ์ที่อนุญาตที่แตกต่างกันออกไปบ้าง หากเป็นเช่นกรณีดังกล่าวนี้ "
+"คุณควรจะศึกษาสิทธิ์ที่อนุญาตของดิสทริบิวชันของคุณเพิ่มเติมได้จากคู่มือของดิสทริบิวชัน "
+"<p><b>ข้อควรระวัง:</b> แม้ว่าโปรแกรม K3b::Setup นี้ไม่ควรจะทำให้เกิดผลกระทบใด ๆ "
+"กับระบบของคุณก็ตาม แต่ก็รับประกันไม่ได้ว่ามันจะไม่เกิดขึ้น"
+
+#: k3bsetup.cpp:145
+msgid ""
+"<h2>K3b::Setup</h2><p>This simple setup assistant is able to set the "
+"permissions needed by K3b in order to burn CDs and DVDs.<p>It does not take "
+"into account devfs or resmgr, or similar. In most cases this is not a "
+"problem, but on some systems the permissions may be altered the next time "
+"you login or restart your computer. In these cases it is best to consult the "
+"distribution's documentation.<p>The important task that K3b::Setup performs "
+"is grant write access to the CD and DVD devices.<p><b>Caution:</b> Although "
+"K3b::Setup should not be able to damage your system, no guarantee can be "
+"given."
+msgstr ""
+"<h2>K3b::Setup</h2><p>นี่เป็นผู้ช่วยในการตั้งค่าอย่างง่าย "
+"ในการกำหนดสิทธิ์ที่อนุญาตที่จำเป็นต้องใช้กับโปรแกรม K3b "
+"เพื่อใช้ในการเขียนแผ่นซีดีหรือแผ่นดีวีดี<p>โดยมันจะไม่มีการยุ่งเกี่ยวกับสิ่งต่าง ๆ เช่น devfs หรือ "
+"resmgr เพื่อกำหนดให้กับบัญชีผู้ใช้แต่อย่างใด ซึ่งโดยทั่วไปแล้ว "
+"การตั้งค่านี้จะไม่ก่อให้เกิดปัญหาแต่อย่างใด แต่กับบางระบบนั้น "
+"อาจจะมีสิทธิ์ที่อนุญาตที่แตกต่างกันออกไปบ้าง หากเป็นเช่นกรณีดังกล่าวนี้ "
+"คุณควรจะศึกษาสิทธิ์ที่อนุญาตของดิสทริบิวชันของคุณเพิ่มเติมได้จากคู่มือของดิสทริบิวชัน "
+"<p><b>ข้อควรระวัง:</b> แม้ว่าโปรแกรม K3b::Setup นี้ไม่ควรจะทำให้เกิดผลกระทบใด ๆ "
+"กับระบบของคุณก็ตาม แต่ก็รับประกันไม่ได้ว่ามันจะไม่เกิดขึ้น"
+
+#: k3bsetup.cpp:188
+#, kde-format
+msgid "There is no group \"%1\"."
+msgstr "ไม่มีกลุ่มผู้ใช้ \"%1\""
+
+#: k3bsetup.cpp:228
+msgid "Cannot run worker."
+msgstr "ไม่สามารถประมวลผลตัวช่วยทำงานได้"
+
+#: k3bsetup.cpp:238
+msgid "Following devices and programs could not be updated:"
+msgstr "ไม่สามารถทำการปรับปรุงอุปกรณ์และโปรแกรมต่าง ๆ ต่อไปนี้ได้:"
+
+#: k3bsetupdevicesmodel.cpp:170 k3bsetupdevicesmodel.cpp:177
+#: k3bsetupprogramsmodel.cpp:266
+msgid "no change"
+msgstr "ไม่เปลี่ยนแปลง"
+
+#: k3bsetupdevicesmodel.cpp:237
+msgid "Device"
+msgstr "อุปกรณ์"
+
+#: k3bsetupdevicesmodel.cpp:238
+msgid "Devicenode"
+msgstr "โหนดอุปกรณ์"
+
+#: k3bsetupdevicesmodel.cpp:239 k3bsetupprogramsmodel.cpp:324
+msgid "Permissions"
+msgstr "สิทธิ์ที่อนุญาต"
+
+#: k3bsetupdevicesmodel.cpp:240 k3bsetupprogramsmodel.cpp:325
+msgid "New permissions"
+msgstr "กำหนดสิทธิ์ที่อนุญาตใหม่"
+
+#: k3bsetupprogramsmodel.cpp:321
+msgid "Program"
+msgstr "โปรแกรม"
+
+#: k3bsetupprogramsmodel.cpp:322
+msgid "Version"
+msgstr "รุ่น"
+
+#: k3bsetupprogramsmodel.cpp:323
+msgid "Path"
+msgstr "พาธ"
+
+#: rc.cpp:1
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "ถนอมทรัพย์ นพบูรณ์"
+
+#: rc.cpp:2
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "donga.nb@gmail.com"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#, fuzzy

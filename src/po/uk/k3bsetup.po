@@ -1,0 +1,130 @@
+# translation of k3bsetup.po to Ukrainian
+# Translation of k3bsetup.po to Ukrainian
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Ivan Petrouchtchak <fr.ivan@ukrainian-orthodox.org>, 2007.
+# Yuri Chornoivan <yurchor@ukr.net>, 2009, 2010.
+msgid ""
+msgstr ""
+"Project-Id-Version: k3bsetup\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2011-01-11 14:34+0100\n"
+"PO-Revision-Date: 2010-01-27 18:05+0200\n"
+"Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
+"Language-Team: Ukrainian <translation@linux.org.ua>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 1.0\n"
+"Plural-Forms: nplurals=4; plural=n==1 ? 3 : n%10==1 && n%100!=11 ? 0 : n%"
+"10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+
+#: k3bsetup.cpp:77
+msgid "K3bSetup"
+msgstr "K3bSetup"
+
+#: k3bsetup.cpp:79
+msgid "(C) 2003-2007 Sebastian Trueg"
+msgstr "© Sebastian Trueg, 2003-2007"
+
+#: k3bsetup.cpp:80
+msgid "Sebastian Trueg"
+msgstr "Sebastian Trueg"
+
+#: k3bsetup.cpp:88
+msgid ""
+"<p>This simple setup assistant is able to set the permissions needed by K3b "
+"in order to burn CDs and DVDs. <p>It does not take things like devfs or "
+"resmgr into account. In most cases this is not a problem but on some systems "
+"the permissions may be altered the next time you login or restart your "
+"computer. In those cases it is best to consult the distribution "
+"documentation.<p><b>Caution:</b> Although K3b::Setup should not be able to "
+"mess up your system no guarantee can be given."
+msgstr ""
+"<p>Ця проста допоміжна програма може допомогти налагодити права доступу для "
+"K3b, які необхідні щоб записувати CD та DVD. <p>Вона не враховує таких "
+"речей, як devfs або resmgr. В більшості випадків це не повинно завдавати "
+"ніяких проблем, але на деяких системах після наступного входу або "
+"перезапуску комп'ютера деякі системні права доступу можуть бути змінені. "
+"Найкраще в таких випадках звернутись до документації вашого дистрибутива."
+"<p><b>Увага:</b> Хоч K3b::Setup не повинен зіпсувати вашу систему, однак не "
+"дається жодних гарантій."
+
+#: k3bsetup.cpp:145
+msgid ""
+"<h2>K3b::Setup</h2><p>This simple setup assistant is able to set the "
+"permissions needed by K3b in order to burn CDs and DVDs.<p>It does not take "
+"into account devfs or resmgr, or similar. In most cases this is not a "
+"problem, but on some systems the permissions may be altered the next time "
+"you login or restart your computer. In these cases it is best to consult the "
+"distribution's documentation.<p>The important task that K3b::Setup performs "
+"is grant write access to the CD and DVD devices.<p><b>Caution:</b> Although "
+"K3b::Setup should not be able to damage your system, no guarantee can be "
+"given."
+msgstr ""
+"<h2>K3b::Setup</h2><p>Ця проста допоміжна програма може допомогти налагодити "
+"права доступу для K3b, які необхідні щоб записувати CD та DVD. <p>Вона не "
+"враховує таких речей, як devfs або resmgr. В більшості випадків це не "
+"повинно завдавати ніяких проблем, але на деяких системах після наступного "
+"входу або перезапуску комп'ютера деякі системні права доступу можуть бути "
+"змінені. Найкраще в таких випадках звернутись до документації вашого "
+"дистрибутива.<p>Важлива функція, яку виконує K3b::Setup — це надання доступу "
+"для запису на пристроях CD і DVD.<p><b>Увага:</b> Хоч K3b::Setup не повинен "
+"зіпсувати вашу систему, однак не дається жодних гарантій."
+
+#: k3bsetup.cpp:188
+#, kde-format
+msgid "There is no group \"%1\"."
+msgstr "Не існує групи «%1»."
+
+#: k3bsetup.cpp:228
+msgid "Cannot run worker."
+msgstr "Не вдалося запустити інструмент виконання завдань."
+
+#: k3bsetup.cpp:238
+msgid "Following devices and programs could not be updated:"
+msgstr "Не вдалося оновити такі пристрої і програми:"
+
+#: k3bsetupdevicesmodel.cpp:170 k3bsetupdevicesmodel.cpp:177
+#: k3bsetupprogramsmodel.cpp:266
+msgid "no change"
+msgstr "без змін"
+
+#: k3bsetupdevicesmodel.cpp:237
+msgid "Device"
+msgstr "Пристрій"
+
+#: k3bsetupdevicesmodel.cpp:238
+msgid "Devicenode"
+msgstr "Вузол пристрою"
+
+#: k3bsetupdevicesmodel.cpp:239 k3bsetupprogramsmodel.cpp:324
+msgid "Permissions"
+msgstr "Права доступу"
+
+#: k3bsetupdevicesmodel.cpp:240 k3bsetupprogramsmodel.cpp:325
+msgid "New permissions"
+msgstr "Нові права доступу"
+
+#: k3bsetupprogramsmodel.cpp:321
+msgid "Program"
+msgstr "Програма"
+
+#: k3bsetupprogramsmodel.cpp:322
+msgid "Version"
+msgstr "Версія"
+
+#: k3bsetupprogramsmodel.cpp:323
+msgid "Path"
+msgstr "Шлях"
+
+#: rc.cpp:1
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Іван Петрущак"
+
+#: rc.cpp:2
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "ivanpetrouchtchak@yahoo.com"

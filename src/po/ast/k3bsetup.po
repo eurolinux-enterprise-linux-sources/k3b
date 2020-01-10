@@ -1,0 +1,129 @@
+# Asturian translation for k3b
+# Copyright (c) 2009 Rosetta Contributors and Canonical Ltd 2009
+# This file is distributed under the same license as the k3b package.
+# Xandru Martino Ruz (Arcipiescu) <xandru.martino@gmail.com>, 2009.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: k3bsetup\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2011-01-11 14:34+0100\n"
+"PO-Revision-Date: 2010-10-18 22:30+0100\n"
+"Last-Translator: Iñigo Varela <ivarela@softastur.org>\n"
+"Language-Team: Asturian <alministradores@softastur.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"First-Translator: Softastur <xandru.martino@gmail.com>\n"
+"X-Launchpad-Export-Date: 2009-10-23 02:43+0000\n"
+"X-Generator: Launchpad (build Unknown)\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+
+#: k3bsetup.cpp:77
+msgid "K3bSetup"
+msgstr "K3bSetup"
+
+#: k3bsetup.cpp:79
+msgid "(C) 2003-2007 Sebastian Trueg"
+msgstr "(C) 2003-2007 Sebastian Trueg"
+
+#: k3bsetup.cpp:80
+msgid "Sebastian Trueg"
+msgstr "Sebastian Trueg"
+
+#: k3bsetup.cpp:88
+msgid ""
+"<p>This simple setup assistant is able to set the permissions needed by K3b "
+"in order to burn CDs and DVDs. <p>It does not take things like devfs or "
+"resmgr into account. In most cases this is not a problem but on some systems "
+"the permissions may be altered the next time you login or restart your "
+"computer. In those cases it is best to consult the distribution "
+"documentation.<p><b>Caution:</b> Although K3b::Setup should not be able to "
+"mess up your system no guarantee can be given."
+msgstr ""
+"<p> Esti cenciellu asistente de configuración ye quien a configurar los "
+"permisos necesarios pa K3b pa grabar CD y DVD. <p> nun tien coses como devfs "
+"o resmgr en cuenta. Na mayoría de los casos esto nun ye un problema, pero en "
+"dalgunos sistemes los permisos pueden camudase la próxima vegada qu'anicie "
+"sesión o reanicie l'equipu. Nesos casos lo meyor ye consultar la "
+"documentación de la distribución. <p> Precaución: </ b> Magar que K3b::Setup "
+"nun tendría de poder frañar el sistema, esto nun pue garantizase."
+
+#: k3bsetup.cpp:145
+msgid ""
+"<h2>K3b::Setup</h2><p>This simple setup assistant is able to set the "
+"permissions needed by K3b in order to burn CDs and DVDs.<p>It does not take "
+"into account devfs or resmgr, or similar. In most cases this is not a "
+"problem, but on some systems the permissions may be altered the next time "
+"you login or restart your computer. In these cases it is best to consult the "
+"distribution's documentation.<p>The important task that K3b::Setup performs "
+"is grant write access to the CD and DVD devices.<p><b>Caution:</b> Although "
+"K3b::Setup should not be able to damage your system, no guarantee can be "
+"given."
+msgstr ""
+"<h2> K3b::Setup </ h2> <p> Esti cenciellu asistente de configuración ye "
+"quien a configurar los permisos necesarios pa K3b pa grabar CD y DVD. <p> "
+"nun tien en cuenta devfs o resmgr, o similar . Na mayoría de los casos esto "
+"nun ye un problema, pero en dalgunos sistemes los permisos pueden camudase "
+"la próxima vegada qu'anicie sesión o reanicie l'equipu. Nesos casos lo meyor "
+"ye consultar la documentación de la distribución. <p> La xera importante que "
+"K3b::Setup fai ye conceder accesu d'escritura a los preseos de CD y DVD. <p> "
+"Precaución: </ b> Magar que K3b::Setup nun tendría de poder frañar el "
+"sistema, esto nun pue garantizase."
+
+#: k3bsetup.cpp:188
+#, kde-format
+msgid "There is no group \"%1\"."
+msgstr "Nun ye un grupu \"%1\"."
+
+#: k3bsetup.cpp:228
+msgid "Cannot run worker."
+msgstr "Nun puede executase l'aida."
+
+#: k3bsetup.cpp:238
+msgid "Following devices and programs could not be updated:"
+msgstr "Los siguientes preseos y programes nun pueden anovase:"
+
+#: k3bsetupdevicesmodel.cpp:170 k3bsetupdevicesmodel.cpp:177
+#: k3bsetupprogramsmodel.cpp:266
+msgid "no change"
+msgstr "ensin cambeos"
+
+#: k3bsetupdevicesmodel.cpp:237
+msgid "Device"
+msgstr "Preséu"
+
+#: k3bsetupdevicesmodel.cpp:238
+msgid "Devicenode"
+msgstr "Nodu preséu"
+
+#: k3bsetupdevicesmodel.cpp:239 k3bsetupprogramsmodel.cpp:324
+msgid "Permissions"
+msgstr "Permisos"
+
+#: k3bsetupdevicesmodel.cpp:240 k3bsetupprogramsmodel.cpp:325
+msgid "New permissions"
+msgstr "Nuevos permisos"
+
+#: k3bsetupprogramsmodel.cpp:321
+msgid "Program"
+msgstr "Programa"
+
+#: k3bsetupprogramsmodel.cpp:322
+msgid "Version"
+msgstr "Versión"
+
+#: k3bsetupprogramsmodel.cpp:323
+msgid "Path"
+msgstr "Camín"
+
+#: rc.cpp:1
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "AluminiuM, Iñigo Varela, Xandru Martino"
+
+#: rc.cpp:2
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr ""
+"aluminium@softastur.org, malditoastur@gmail.com, xandru.martino@softastur.org"

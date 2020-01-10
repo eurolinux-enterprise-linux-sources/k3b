@@ -1,0 +1,27 @@
+if(BUILD_WAVE_DECODER_PLUGIN)
+  add_subdirectory( wave )
+endif(BUILD_WAVE_DECODER_PLUGIN)
+
+if(BUILD_OGGVORBIS_DECODER_PLUGIN)
+  add_subdirectory(ogg)
+endif(BUILD_OGGVORBIS_DECODER_PLUGIN)
+
+if(BUILD_FFMPEG_DECODER_PLUGIN)
+  add_subdirectory(ffmpeg)
+endif(BUILD_FFMPEG_DECODER_PLUGIN)
+
+if(BUILD_FLAC_DECODER_PLUGIN)
+  add_subdirectory(flac)
+endif(BUILD_FLAC_DECODER_PLUGIN)
+
+if(BUILD_MAD_DECODER_PLUGIN)
+  add_subdirectory(mp3)
+endif(BUILD_MAD_DECODER_PLUGIN)
+
+if(BUILD_MUSE_DECODER_PLUGIN)
+  add_subdirectory(musepack)
+endif(BUILD_MUSE_DECODER_PLUGIN)
+
+if(BUILD_SNDFILE_DECODER_PLUGIN)
+  add_subdirectory(libsndfile)
+endif(BUILD_SNDFILE_DECODER_PLUGIN)

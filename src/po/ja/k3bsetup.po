@@ -1,0 +1,149 @@
+# Translation of k3bsetup into Japanese.
+# This file is distributed under the same license as the k3b package.
+# UTUMI Hirosi <utuhiro78@yahoo.co.jp>, 2006.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: k3bsetup\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2011-01-11 14:34+0100\n"
+"PO-Revision-Date: 2006-08-09 21:00+0900\n"
+"Last-Translator: Yukiko Bando <ybando@k6.dion.ne.jp>\n"
+"Language-Team: Japanese <Kdeveloper@kde.gr.jp>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Accelerator-Marker: &\n"
+"X-Text-Markup: kde4\n"
+
+#: k3bsetup.cpp:77
+#, fuzzy
+#| msgid "K3bSetup 2"
+msgid "K3bSetup"
+msgstr "K3bSetup 2"
+
+#: k3bsetup.cpp:79
+msgid "(C) 2003-2007 Sebastian Trueg"
+msgstr "(C) 2003-2007 Sebastian Trueg"
+
+#: k3bsetup.cpp:80
+msgid "Sebastian Trueg"
+msgstr "Sebastian Trueg"
+
+#: k3bsetup.cpp:88
+#, fuzzy
+#| msgid ""
+#| "<p>This simple setup assistant is able to set the permissions needed by "
+#| "K3b in order to burn CDs and DVDs. <p>It does not take things like devfs "
+#| "or resmgr into account. In most cases this is not a problem but on some "
+#| "systems the permissions may be altered the next time you login or restart "
+#| "your computer. In those cases it is best to consult the distribution "
+#| "documentation.<p><b>Caution:</b> Although K3bSetup 2 should not be able "
+#| "to mess up your system no guarantee can be given."
+msgid ""
+"<p>This simple setup assistant is able to set the permissions needed by K3b "
+"in order to burn CDs and DVDs. <p>It does not take things like devfs or "
+"resmgr into account. In most cases this is not a problem but on some systems "
+"the permissions may be altered the next time you login or restart your "
+"computer. In those cases it is best to consult the distribution "
+"documentation.<p><b>Caution:</b> Although K3b::Setup should not be able to "
+"mess up your system no guarantee can be given."
+msgstr ""
+"<html><p>このセットアップウィザードでは K3b で CD と DVD を作るための権限を設"
+"定します。</p><p><command>devfs</command> や <command>resmgr</command> のよう"
+"なものは要りません。多くの場合は問題ありませんが、いくつかのシステムでは再ロ"
+"グインや再起動が必要になります。ディストリビューションのドキュメントを参照し"
+"てください。</p><p><warning>K3bSetup 2 はシステムを壊すものではありませんが、"
+"これを保証するものではありません。</warning></p></html>"
+
+#: k3bsetup.cpp:145
+#, fuzzy
+#| msgid ""
+#| "<h2>K3bSetup 2</h2><p>This simple setup assistant is able to set the "
+#| "permissions needed by K3b in order to burn CDs and DVDs.<p>It does not "
+#| "take into account devfs or resmgr, or similar. In most cases this is not "
+#| "a problem, but on some systems the permissions may be altered the next "
+#| "time you login or restart your computer. In these cases it is best to "
+#| "consult the distribution's documentation.<p>The important task that "
+#| "K3bSetup 2 performs is grant write access to the CD and DVD devices."
+#| "<p><b>Caution:</b> Although K3bSetup 2 should not be able to damage your "
+#| "system, no guarantee can be given."
+msgid ""
+"<h2>K3b::Setup</h2><p>This simple setup assistant is able to set the "
+"permissions needed by K3b in order to burn CDs and DVDs.<p>It does not take "
+"into account devfs or resmgr, or similar. In most cases this is not a "
+"problem, but on some systems the permissions may be altered the next time "
+"you login or restart your computer. In these cases it is best to consult the "
+"distribution's documentation.<p>The important task that K3b::Setup performs "
+"is grant write access to the CD and DVD devices.<p><b>Caution:</b> Although "
+"K3b::Setup should not be able to damage your system, no guarantee can be "
+"given."
+msgstr ""
+"<html><h2>K3bSetup·2</h2><p>このセットアップウィザードでは K3b で CD と DVD "
+"を作るための権限を設定します。</p><p><command>devfs</command> や "
+"<command>resmgr</command> のようなものは要りません。多くの場合は問題ありませ"
+"んが、いくつかのシステムでは再ログインや再起動が必要になります。ディストリ"
+"ビューションのドキュメントを参照してください。</p><p>K3bSetup 2 の最も大事な"
+"役割は、CD/DVD デバイスへのアクセス権限を与えることです。</"
+"p><p><warning>K3bSetup 2 はシステムを壊すものではありませんが、これを保証する"
+"ものではありません。</warning></p></html>"
+
+#: k3bsetup.cpp:188
+#, fuzzy, kde-format
+#| msgid "There is no group %1."
+msgid "There is no group \"%1\"."
+msgstr "%1 というグループはありません。"
+
+#: k3bsetup.cpp:228
+msgid "Cannot run worker."
+msgstr ""
+
+#: k3bsetup.cpp:238
+msgid "Following devices and programs could not be updated:"
+msgstr ""
+
+#: k3bsetupdevicesmodel.cpp:170 k3bsetupdevicesmodel.cpp:177
+#: k3bsetupprogramsmodel.cpp:266
+msgid "no change"
+msgstr "変更なし"
+
+#: k3bsetupdevicesmodel.cpp:237
+msgid "Device"
+msgstr "デバイス"
+
+#: k3bsetupdevicesmodel.cpp:238
+msgid "Devicenode"
+msgstr "デバイスノード"
+
+#: k3bsetupdevicesmodel.cpp:239 k3bsetupprogramsmodel.cpp:324
+msgid "Permissions"
+msgstr "権限"
+
+#: k3bsetupdevicesmodel.cpp:240 k3bsetupprogramsmodel.cpp:325
+#, fuzzy
+#| msgid "New Permissions"
+msgid "New permissions"
+msgstr "新しい権限"
+
+#: k3bsetupprogramsmodel.cpp:321
+msgid "Program"
+msgstr "プログラム"
+
+#: k3bsetupprogramsmodel.cpp:322
+msgid "Version"
+msgstr "バージョン"
+
+#: k3bsetupprogramsmodel.cpp:323
+msgid "Path"
+msgstr "パス"
+
+#: rc.cpp:1
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "UTUMI Hirosi"
+
+#: rc.cpp:2
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "utuhiro78@yahoo.co.jp"

@@ -1,0 +1,202 @@
+# Korean translation for k3b
+# Copyright (c) 2006 Canonical Ltd, and Rosetta Contributors 2006
+# This file is distributed under the same license as the k3b package.
+# Park Shinjo <kde@peremen.name>, 2006, 2007, 2009.
+# Sang-kyun Noh <freesky80@nate.com>, 2008.
+# Copyright (C) 2007 This_file_is_part_of_KDE
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: k3b\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2011-01-11 14:34+0100\n"
+"PO-Revision-Date: 2009-08-05 13:44+0900\n"
+"Last-Translator: Park Shinjo <kde@peremen.name>\n"
+"Language-Team: Korean <cho.sungjae@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Lokalize 0.3\n"
+
+#: k3bsetup.cpp:77
+msgid "K3bSetup"
+msgstr "K3bSetup"
+
+#: k3bsetup.cpp:79
+msgid "(C) 2003-2007 Sebastian Trueg"
+msgstr "(C) 2003-2007 Sebastian Trueg"
+
+#: k3bsetup.cpp:80
+msgid "Sebastian Trueg"
+msgstr "Sebastian Trueg"
+
+#: k3bsetup.cpp:88
+#, fuzzy
+#| msgid ""
+#| "<p>This simple setup assistant is able to set the permissions needed by "
+#| "K3b in order to burn CDs and DVDs. <p>It does not take things like devfs "
+#| "or resmgr into account. In most cases this is not a problem but on some "
+#| "systems the permissions may be altered the next time you login or restart "
+#| "your computer. In those cases it is best to consult the distribution "
+#| "documentation.<p><b>Caution:</b> Although K3bSetup 2 should not be able "
+#| "to mess up your system no guarantee can be given."
+msgid ""
+"<p>This simple setup assistant is able to set the permissions needed by K3b "
+"in order to burn CDs and DVDs. <p>It does not take things like devfs or "
+"resmgr into account. In most cases this is not a problem but on some systems "
+"the permissions may be altered the next time you login or restart your "
+"computer. In those cases it is best to consult the distribution "
+"documentation.<p><b>Caution:</b> Although K3b::Setup should not be able to "
+"mess up your system no guarantee can be given."
+msgstr ""
+"<p>이 간단한 셋업은 K3b에서 CD나 DVD를 구울 수 있도록 준비해 줍니다. <p>이것"
+"은 devfs나 resmgr 같은 것을 계정으로 가지고 오지 않습니다. 대개의 경우 이것"
+"은 문제가 되지 않지만 일부 시스템에서는 다음 로그인이나 시스템 재시작 때 퍼미"
+"션이 복원될 수 있습니다. 이 경우 배포판 문서를 참고하십시오.<p><b>경고:</b>비"
+"록 K3bSetup 2에서 시스템을 망치지 않을 수도 있지만, 보장하지는 않습니다."
+
+#: k3bsetup.cpp:145
+#, fuzzy
+#| msgid ""
+#| "<h2>K3bSetup 2</h2><p>This simple setup assistant is able to set the "
+#| "permissions needed by K3b in order to burn CDs and DVDs.<p>It does not "
+#| "take into account devfs or resmgr, or similar. In most cases this is not "
+#| "a problem, but on some systems the permissions may be altered the next "
+#| "time you login or restart your computer. In these cases it is best to "
+#| "consult the distribution's documentation.<p>The important task that "
+#| "K3bSetup 2 performs is grant write access to the CD and DVD devices."
+#| "<p><b>Caution:</b> Although K3bSetup 2 should not be able to damage your "
+#| "system, no guarantee can be given."
+msgid ""
+"<h2>K3b::Setup</h2><p>This simple setup assistant is able to set the "
+"permissions needed by K3b in order to burn CDs and DVDs.<p>It does not take "
+"into account devfs or resmgr, or similar. In most cases this is not a "
+"problem, but on some systems the permissions may be altered the next time "
+"you login or restart your computer. In these cases it is best to consult the "
+"distribution's documentation.<p>The important task that K3b::Setup performs "
+"is grant write access to the CD and DVD devices.<p><b>Caution:</b> Although "
+"K3b::Setup should not be able to damage your system, no guarantee can be "
+"given."
+msgstr ""
+"<h2>K3bSetup 2</h2><p>이 간단한 설치 마법사에서는 K3b에서 CD나 DVD에 쓸 수 있"
+"도록 도와 줍니다.<p>이것은 계정을 devfs나 resmgr 등에 집어 넣지 않습니다. 대"
+"개의 경우 이것은 문제가 되지 않지만 일부 시스템에서는 다음 번에 로그인하거나 "
+"다시 시작할 때 권한이 바뀔 수도 있습니다. 이러한 경우는 배포판의 문서를 참고"
+"하십시오. <p>이 프로그램이 하는 가장 중요한 작업은 CD/DVD 장치에 쓰기 접근을 "
+"허용하는 것입니다. <b>경고:</b>비록 K3bSetup 2에서는 시스템을 손상시킬 수 없"
+"지만 보장하지는 않습니다."
+
+#: k3bsetup.cpp:188
+#, fuzzy, kde-format
+#| msgid "There is no group %1."
+msgid "There is no group \"%1\"."
+msgstr "그룹 %1이(가) 없습니다."
+
+#: k3bsetup.cpp:228
+msgid "Cannot run worker."
+msgstr ""
+
+#: k3bsetup.cpp:238
+msgid "Following devices and programs could not be updated:"
+msgstr ""
+
+#: k3bsetupdevicesmodel.cpp:170 k3bsetupdevicesmodel.cpp:177
+#: k3bsetupprogramsmodel.cpp:266
+msgid "no change"
+msgstr "바꾸지 않음"
+
+#: k3bsetupdevicesmodel.cpp:237
+msgid "Device"
+msgstr "장치"
+
+#: k3bsetupdevicesmodel.cpp:238
+msgid "Devicenode"
+msgstr "장치 노드"
+
+#: k3bsetupdevicesmodel.cpp:239 k3bsetupprogramsmodel.cpp:324
+msgid "Permissions"
+msgstr "권한"
+
+#: k3bsetupdevicesmodel.cpp:240 k3bsetupprogramsmodel.cpp:325
+#, fuzzy
+#| msgid "New Permissions"
+msgid "New permissions"
+msgstr "새 권한"
+
+#: k3bsetupprogramsmodel.cpp:321
+msgid "Program"
+msgstr "프로그램"
+
+#: k3bsetupprogramsmodel.cpp:322
+msgid "Version"
+msgstr "버전"
+
+#: k3bsetupprogramsmodel.cpp:323
+msgid "Path"
+msgstr "경로"
+
+#: rc.cpp:1
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Park Shinjo"
+
+#: rc.cpp:2
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "kde@peremen.name"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#, fuzzy

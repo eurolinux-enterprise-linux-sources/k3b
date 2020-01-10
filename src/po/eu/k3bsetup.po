@@ -1,0 +1,149 @@
+# translation of k3bsetup.po to Basque
+#
+# Marcos  <marcos@euskalgnu.org>, 2005.
+# Julen Landa Alustiza <julen@mundurat.net>, 2009.
+# Iñaki Larrañaga Murgoitio <dooteo@euskalgnu.org>, 2009.
+msgid ""
+msgstr ""
+"Project-Id-Version: k3bsetup\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2011-01-11 14:34+0100\n"
+"PO-Revision-Date: 2009-06-09 13:04+0200\n"
+"Last-Translator: Iñaki Larrañaga Murgoitio <dooteo@euskalgnu.org>\n"
+"Language-Team: Basque <itzulpena@euskalgnu.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.4\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: k3bsetup.cpp:77
+#, fuzzy
+#| msgid "K3bSetup 2"
+msgid "K3bSetup"
+msgstr "K3bSetup 2"
+
+#: k3bsetup.cpp:79
+msgid "(C) 2003-2007 Sebastian Trueg"
+msgstr "(C) 2003-2007 Sebastian Trueg"
+
+#: k3bsetup.cpp:80
+msgid "Sebastian Trueg"
+msgstr "Sebastian Trueg"
+
+#: k3bsetup.cpp:88
+#, fuzzy
+#| msgid ""
+#| "<p>This simple setup assistant is able to set the permissions needed by "
+#| "K3b in order to burn CDs and DVDs. <p>It does not take things like devfs "
+#| "or resmgr into account. In most cases this is not a problem but on some "
+#| "systems the permissions may be altered the next time you login or restart "
+#| "your computer. In those cases it is best to consult the distribution "
+#| "documentation.<p><b>Caution:</b> Although K3b::Setup 2 should not be able "
+#| "to mess up your system no guarantee can be given."
+msgid ""
+"<p>This simple setup assistant is able to set the permissions needed by K3b "
+"in order to burn CDs and DVDs. <p>It does not take things like devfs or "
+"resmgr into account. In most cases this is not a problem but on some systems "
+"the permissions may be altered the next time you login or restart your "
+"computer. In those cases it is best to consult the distribution "
+"documentation.<p><b>Caution:</b> Although K3b::Setup should not be able to "
+"mess up your system no guarantee can be given."
+msgstr ""
+"<p>Konfigurazio soileko laguntzaile honek K3b-k behar dituen baimenak ezar "
+"ditzake CDak eta DVDak grabatzeko. <p>devfs edo resmgr bezalako gauzak ez "
+"ditu kontuan hartzen. Gehienetan hori ez da arazoa izaten, baina sistema "
+"batzuetan baimenak alda daitezke sartzen zaren hurrengo aldian edo "
+"ordenagailua berrabiarazten duzunean. Horrelakoetan, hobe da banaketako "
+"dokumentazioa kontsultatzea.<p><b>Kontuz:</b> K3b::Setup 2-k sistema "
+"nahaspilatu behar ez lukeen arren, ez dago hori bermatzerik."
+
+#: k3bsetup.cpp:145
+#, fuzzy
+#| msgid ""
+#| "<h2>K3b::Setup 2</h2><p>This simple setup assistant is able to set the "
+#| "permissions needed by K3b in order to burn CDs and DVDs.<p>It does not "
+#| "take into account devfs or resmgr, or similar. In most cases this is not "
+#| "a problem, but on some systems the permissions may be altered the next "
+#| "time you login or restart your computer. In these cases it is best to "
+#| "consult the distribution's documentation.<p>The important task that K3b::"
+#| "Setup 2 performs is grant write access to the CD and DVD devices."
+#| "<p><b>Caution:</b> Although K3b::Setup 2 should not be able to damage "
+#| "your system, no guarantee can be given."
+msgid ""
+"<h2>K3b::Setup</h2><p>This simple setup assistant is able to set the "
+"permissions needed by K3b in order to burn CDs and DVDs.<p>It does not take "
+"into account devfs or resmgr, or similar. In most cases this is not a "
+"problem, but on some systems the permissions may be altered the next time "
+"you login or restart your computer. In these cases it is best to consult the "
+"distribution's documentation.<p>The important task that K3b::Setup performs "
+"is grant write access to the CD and DVD devices.<p><b>Caution:</b> Although "
+"K3b::Setup should not be able to damage your system, no guarantee can be "
+"given."
+msgstr ""
+"<h2>K3b::Setup 2</h2><p>Konfigurazio soileko laguntzaile honek K3b-k behar "
+"dituen baimenak ezar ditzake CDak eta DVDak grabatzeko.<p>devfs edo resmgr "
+"edo antzekoak ez ditu kontuan hartzen. Gehienetan hori ez da arazoa izaten, "
+"baina sistema batzuetan baimenak alda daitezke saioan sartzen zaren hurrengo "
+"aldian edo ordenagailua berrabiarazten duzunean. Horrelakoetan, hobe da "
+"banaketako dokumentazioa kontsultatzea.<p>K3b::Setup 2ren zeregin "
+"garrantzitsua CD eta DVD gailuak grabatzeko atzipena ematea da.<p><b>Kontuz:"
+"</b> K3b::Setup 2-k sistema hondatu behar ez lukeen arren, ez dago hori "
+"bermatzerik."
+
+#: k3bsetup.cpp:188
+#, fuzzy, kde-format
+#| msgid "There is no group %1."
+msgid "There is no group \"%1\"."
+msgstr "%1 taldea ez dago."
+
+#: k3bsetup.cpp:228
+msgid "Cannot run worker."
+msgstr ""
+
+#: k3bsetup.cpp:238
+msgid "Following devices and programs could not be updated:"
+msgstr ""
+
+#: k3bsetupdevicesmodel.cpp:170 k3bsetupdevicesmodel.cpp:177
+#: k3bsetupprogramsmodel.cpp:266
+msgid "no change"
+msgstr "aldaketarik ez"
+
+#: k3bsetupdevicesmodel.cpp:237
+msgid "Device"
+msgstr "Gailua"
+
+#: k3bsetupdevicesmodel.cpp:238
+msgid "Devicenode"
+msgstr "Gailu nodoa"
+
+#: k3bsetupdevicesmodel.cpp:239 k3bsetupprogramsmodel.cpp:324
+msgid "Permissions"
+msgstr "Baimenak"
+
+#: k3bsetupdevicesmodel.cpp:240 k3bsetupprogramsmodel.cpp:325
+msgid "New permissions"
+msgstr "Baimen berriak"
+
+#: k3bsetupprogramsmodel.cpp:321
+msgid "Program"
+msgstr "Programa"
+
+#: k3bsetupprogramsmodel.cpp:322
+msgid "Version"
+msgstr "Bertsioa"
+
+#: k3bsetupprogramsmodel.cpp:323
+msgid "Path"
+msgstr "Bide-izena"
+
+#: rc.cpp:1
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Julen Landa"
+
+#: rc.cpp:2
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "julen@mundurat.net"
