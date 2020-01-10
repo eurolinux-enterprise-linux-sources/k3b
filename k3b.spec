@@ -3,7 +3,7 @@ Name:    k3b
 Summary: CD/DVD/Blu-ray burning application
 Epoch:   1
 Version: 2.0.2
-Release: 16%{?dist}
+Release: 17%{?dist}
 
 Group:   Applications/Archiving
 License: GPLv2+
@@ -206,6 +206,9 @@ update-mime-database %{_kde4_datadir}/mime &> /dev/null
 
 
 %changelog
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 1:2.0.2-17
+- Mass rebuild 2013-12-27
+
 * Thu Feb 14 2013 Fedora Release Engineering <rel-eng@lists.fedoraproject.org> - 1:2.0.2-16
 - Rebuilt for https://fedoraproject.org/wiki/Fedora_19_Mass_Rebuild
 
